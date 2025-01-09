@@ -1,6 +1,6 @@
 # Dağıtık Abonelik Sistemi (Distributed Subscriber Service)
 
-GRUP ÜYELERİ
+GRUP ÜYELERİ 
 22060359 - Barış KAYA
 22060361 - Nazımhan Gür
 22060375 - Emir KILIÇER
