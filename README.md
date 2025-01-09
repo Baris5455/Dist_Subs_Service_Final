@@ -1,7 +1,10 @@
 # Dağıtık Abonelik Sistemi (Distributed Subscriber Service)
 
-Bu paragrafta hata tolerans sisteminde sunucu tercihi veya özgün katkılarınızı ifade edebilirsiniz.
-
+GRUP ÜYELERİ
+22060359 - Barış KAYA
+22060361 - Nazımhan Gür
+22060375 - Emir KILIÇER
+22060389 - Veli Buğra ŞAHİN
 
 ### ServerX.java özellikleri
 
