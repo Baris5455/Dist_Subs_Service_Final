@@ -36,7 +36,7 @@ Sunucudan gelen cevaplar (başarılı/başarısız) işlenir.
 - [x] Başlatma ve Admin Bağlantısı: Server, Admin_client.rb tarafından başlatma komutu alana kadar çalışmaz. Admin ile bağlantı kurularak başlangıç ayarları ve tolerans seviyesi alınır. Başarılı bir bağlantı kurulduğunda geri dönüş yapılır.
 - [x] Tolerans Seviyesi Yönetimi: Server, hata toleransı seviyesine göre diğer sunuculara bağlanmaya çalışır. Belirtilen tolerans seviyesi kadar yedek sunucularla iletişim kurulur ve bağlantılar sağlanamazsa bu durum yönetilir.
 - [x] Hata Yönetimi: Hata toleransı prensiplerine uygun şekilde sunucular arasında bağlantı kopması durumunda diğer sunucular çalışmaya devam eder. Hatalar loglanır ve gerekirse bağlantılar yeniden başlatılır.
-- [x] Client Bağlantıları: Server, client'ların SUB (ekleme) ve DEL (silme) işlemlerini yönetir. Gelen istekler doğru bir şekilde işlenir ve ilgili client'lara durum güncellemeleri gönderilir.
+- [x] Client Bağlantıları: Server, client'ların SUB (ekleme) ve DEL (silme) ONLN (çevrim içi) OFLN (çevrim dışı) işlemlerini yönetir. Gelen istekler doğru bir şekilde işlenir ve ilgili client'lara durum güncellemeleri gönderilir.
 - [x] Senkrone Çalışma ve Çoklu İstek Yönetimi: Aynı anda birden fazla istek karşılanabilir. Gelen isteklerin client'tan mı yoksa diğer sunuculardan mı geldiği ayırt edilir.
 - [x] Yedekleme ve Veri Paylaşımı: Sunucular arasında yedekleme yapılabilir. Yeni bir client ekleme veya silme işlemi, diğer sunucularla senkronize edilir.
 - [x] Kapasite Yönetimi: Admin'den gelen kapasite sorgularına yanıt verilir. Sunucu üzerindeki mevcut abone sayısı ve durum bilgisi protokol üzerinden admin'e iletilir.
